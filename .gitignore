@@ -1,0 +1,46 @@
+# Binaries for programs
+*.exe
+*.darwin
+*.linux
+*.windows
+*.freebsd
+*.netbsd
+*.openbsd
+*.dragonfly
+
+# Go build cache
+.cache/
+/tmp/
+
+# Test output, if any
+*_test
+
+# Go workspace file, if any
+go.work
+go.work.sum
+
+# Dependency directories (vendored dependencies) - uncomment if you are explicitly using go mod vendor and don't want to commit the vendor directory.
+# Generally, with Go Modules, you don't commit the vendor directory unless there's a specific reason (e.g., air-gapped environments).
+# vendor/
+
+# Editor/IDE specific files
+.idea/                  # GoLand / IntelliJ IDEA
+.vscode/                # VS Code
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.settings/
+.DS_Store               # macOS
+Thumbs.db               # Windows
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.*
+
+# Temporary files
+*~
+*.tmp
